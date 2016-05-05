@@ -22,7 +22,7 @@
     
     if (_dataArray == nil) {
         
-        _dataArray = [[NSMutableArray alloc]initWithObjects:@"jack",@"rose",@"kobe",@"李冰",@"张三",@"李四",@"hello",@"word",@"angelbaby",@"熊黛林",@"黄晓明",@"詹姆斯",@"加内特", nil];
+        _dataArray = [[NSMutableArray alloc]initWithObjects:@"jack",@"rose",@"kobe",@"李冰",@"张三",@"李四",@"hello",@"word",@"angelbaby",@"熊黛林",@"黄晓明",@"詹姆斯",@"加内特",@"邓肯",@"杜兰特",@"阿尔德里奇",@"莱昂纳德",@"帕克", nil];
     }
     return _dataArray;
 
@@ -241,6 +241,8 @@
             NSIndexPath *firstIndexPath = [NSIndexPath indexPathForRow:0 inSection:indexPath.section];
     
             [tableView moveRowAtIndexPath:indexPath toIndexPath:firstIndexPath];
+            
+//            [tableView reloadData]; 全局刷新
     
         }];
     
