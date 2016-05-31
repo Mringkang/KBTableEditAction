@@ -182,7 +182,7 @@
 }
 
 #pragma mark 处理移动的情况
-
+//
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath
 
 {
